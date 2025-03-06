@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Milionários</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerar Combinações em Blocos</h1>
+    <form id="form">
+        <label for="numeros">Digite os números separados por vírgulas:</label><br>
+        <input type="text" id="numeros" placeholder="Exemplo: 1, 2, 3, 4"><br><br>
+
+        <label for="tamanho">Tamanho dos blocos:</label><br>
+        <input type="number" id="tamanho" min="1"><br><br>
+
+        <button type="button" onclick="gerar()">Gerar Combinações</button>
+    </form>
+
+    <div id="resultado" class="output"></div>
+
+    
+</body>
+
+    <script src="script.js"></script>
+</html>
